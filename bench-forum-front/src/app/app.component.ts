@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'benchapplication';
+
+  checked = false;
+  indeterminate = false;
+  align = 'start';
+  disabled = false;
+
 }
